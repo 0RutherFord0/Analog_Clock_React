@@ -1,0 +1,65 @@
+.Clock{
+    width: 500px;
+    height: 500px;
+    background: black;
+    border: 5px; 
+    -moz-border-radius: 500px; 
+    -webkit-border-radius: 500px; 
+    border-radius: 500px;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+    border: 6px solid red;
+    margin-left: auto; margin-right: auto;
+}
+
+.hour{
+    width: 10px;
+    background-color: white;
+    height : 150px;
+    left : calc(50% - 5px);
+    bottom: 50%;
+    position: absolute;
+    transform-origin: 50% 100%;
+ }
+ .min{
+    width: 6px;
+    background-color: white;
+    height : 200px;
+    left : calc(50% - 3px);
+    bottom: 50%;
+    position: absolute;
+    transform-origin: 50% 100%;
+ }
+ .sec{
+    width: 4px;
+    background-color: white;
+    height : 270px;
+    left : calc(50% - 2px);
+    bottom: 50%;
+    position: absolute;
+    transform-origin: 50% 100%;
+ }
+
+h1{
+   text-align: center;
+
+}
+
+.dot{
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    border: 6px solid red;
+    -moz-background-clip: content;  
+    -webkit-background-clip: content;  
+    background-clip: content-box;
+    position: absolute;
+    top : 257px;
+    left: 257px;
+    z-index: 10;
+    width: 10px;
+    height: 10px; 
+    background: red;
+    border-radius: 50%
+}
